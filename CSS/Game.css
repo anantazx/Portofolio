@@ -1,0 +1,205 @@
+
+/* Back icon */
+.portofolio_header{
+    display: flex;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.back_link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #FFF455;
+}
+
+.back_link svg{
+    width: 30px;
+    height: auto;
+    fill: #FFF455;
+}
+
+.back_link:hover{
+    color: #FFC700;
+    transform:scale(1.1);
+}
+
+.back_link:hover svg {
+    fill: #FFC700;
+}
+
+/* isi dari porto */
+
+.video_card{
+    padding: 20px 50px 0 50px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video_card h2{
+    padding: 20px 50px;
+    margin: auto;
+    text-align: center;
+    color: #4CCD99;
+}
+
+.video_card video{
+    width: 100%;
+    height: auto;
+    border-radius:20px;
+    transition: filter 0.3s ease;
+}
+
+.experience{
+    margin: auto;
+    padding: 0px 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: justify;    
+}
+
+.About_Card{
+    width: calc(50% - 20%);
+    height: auto;
+    background-color: #232323;
+    border-radius: 10px;
+    padding: 20px 50px;
+    color: #e2f0f0;
+}
+
+.About_Card h3 {
+    color: #4CCD99;
+}
+
+.About_Card p {
+    padding-left: 10px;
+    text-align: left;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.About_Card li{
+    margin-bottom: 5px;
+}
+
+/* text bagian bawah */
+
+.part{
+    padding: 20px 50px;
+    margin: auto;
+    color: #e2f0f0;
+}
+
+.part p {
+    padding: 5px 50px;
+    margin: auto;
+    max-width: 70%;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.part strong {
+    color: #FFF455;
+}
+
+.part_header{
+    color: #4CCD99;
+    max-width: 70%;
+    padding:  20px 50px 0px 50px;
+    margin: auto;
+}
+
+.part_imgcontainer{
+    margin: auto;
+    padding: 20px 50px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: justify; 
+}
+
+.image_src{
+    max-width: 30%;
+    height: auto;
+}
+
+.part_vidcontainer{
+    margin: auto;
+    padding: 20px 50px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: justify; 
+}
+
+.clips{
+    max-width: 45%;
+    height: auto;
+}
+
+.clips video{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.game_link a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF455;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #FFF455; 
+    border-radius: 10px;
+}
+
+.game_link h1{
+    margin: 10px;
+}
+
+.game_link:hover a {
+    color: #FFC700;
+    border-color: #FFC700;
+}
+
+@media (max-width: 768px){
+    .About_Card{
+        width: 100%;
+    }
+    .part p {
+        max-width: 100%;
+        padding: 0;
+        margin: none;
+    }
+    .part_header{
+        
+        max-width: 100%;
+        padding: 30px 0 10px 0;
+        margin: auto;
+    }
+    .image_src{
+        max-width: 150%;
+        height: auto;
+    }
+    .clips{
+        max-width: 100%;
+    }
+}

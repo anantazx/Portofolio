@@ -1,0 +1,152 @@
+.About_Me{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px 50px;
+}
+
+.Image_Border img {
+    width: 300px;
+    height: 300px;
+    border: solid 5px #FFF455;
+    border-radius: 100%;
+}
+
+.About_Me_Text{
+    max-width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #FFF455;
+}
+
+.projects {
+    padding: 20px 50px 0 50px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 50px;
+    color: #4CCD99;
+}
+
+.projects h1{
+    padding: 0;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.Containter{
+    padding: 0 20px;
+}
+
+.button{
+    text-decoration: none;
+    color: #e2f0f0; 
+}
+
+.button:hover h1{
+    color: #FFC700;
+}
+
+.button:hover video{
+    
+    filter: grayscale(0%);
+}
+
+.Containter h1{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #FFF455;
+}
+
+.Containter h3{
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.Containter p {
+    max-width: 100%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.skill_Containter{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.skill_Containter h1 {
+    color: #4CCD99;
+}
+
+.all_skills{
+    display: flex;
+    gap: 20px;
+    color: #FFF455;
+}
+
+.skill {
+    border: solid 2px #FFF455;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    align-content: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #4CCD99;
+}
+
+.Personal_Information {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.Personal_Information h1 {
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.Personal_Information .P_text {
+    text-align: justify;
+    max-width: 100%;
+    line-height: 1.5;
+    font-size: 16px;
+}
