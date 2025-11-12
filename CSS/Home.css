@@ -1,11 +1,12 @@
 .About_Me{
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
     padding: 20px 50px;
+    width: fit-content;
 }
 
 .Image_Border img {
@@ -25,8 +26,9 @@
 
 .projects {
     padding: 20px 50px 0 50px;
-    max-width: 1000px;
+    max-width: 1000px;  
     margin: auto;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -103,8 +105,9 @@
 .skill_Containter{
     padding: 20px 50px;
     display: flex;
-    flex-direction: column;
     max-width: 1000px;
+    flex-direction: column;
+    width: fit-content;
     margin: auto;
 }
 
@@ -114,6 +117,7 @@
 
 .all_skills{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     color: #FFF455;
 }
@@ -146,7 +150,7 @@ footer{
 
 .Personal_Information .P_text {
     text-align: justify;
-    max-width: 100%;
+    width: fit-content;
     line-height: 1.5;
     font-size: 16px;
 }

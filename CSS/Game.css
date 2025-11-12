@@ -3,12 +3,25 @@
 .portofolio_header{
     display: flex;
     margin: auto;
-    padding: 20px 50px;
+    padding: 35px 20px;
+}
+
+.portfolio_Card{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #FFF455; 
+    border-radius: 20px;
+}
+
+.portfolio_Card:hover{
+    border: 2px solid #FFC700; 
+    transform:scale(1.1);
 }
 
 .back_link{
     display: flex;
     align-items: center;
+    margin: 8px 10px;
     gap: 20px;
     text-decoration: none;
     color: #FFF455;
